@@ -34,6 +34,7 @@
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- 
     - preload images
@@ -153,7 +154,7 @@
           </ul>
         </nav>
 
-        <a href="#cta" class="btn btn-primary">Free Trial</a>
+        <a href="#cta" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">Free Trial</a>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -173,26 +174,26 @@
           class="section hero has-bg-image"
           aria-label="home"
           style="background-image: url('./assets/images/herobg1.jpg')"
-        >
-          <div class="container">
+          >
+          <div class="container" >
             <div class="hero-content">
-              <h1 class="h1 hero-title">
+              <h1 class="h1 hero-title" data-aos="fade-right" data-aos-duration="1000">
                 Crafting project specific solutions with expertise.
               </h1>
 
-              <p class="hero-text">
+              <p class="hero-text" data-aos="fade-right" data-aos-duration="1000">
                 We’re a creative company that focuses on establishing long-term
                 relationships with customers.
               </p>
 
               <div class="btn-wrapper">
-                <a href="#" class="btn btn-primary">Explore Now</a>
+                <a href="#" class="btn btn-primary" data-aos="fade-up" data-aos-duration="1000">Explore Now</a>
 
-                <a href="#" class="btn btn-outline">Contact Us</a>
+                <a href="#" class="btn btn-outline" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
               </div>
             </div>
 
-            <div class="hero-slider" data-slider>
+            <div class="hero-slider" data-slider data-aos="fade-left" data-aos-duration="1000">
               <div class="slider-inner">
                 <ul class="slider-container" data-slider-container>
                   <li class="slider-item">
@@ -276,16 +277,17 @@
           class="section service"
           aria-labelledby="service-label"
         >
-          <div class="container">
-            <p class="section-subtitle" id="service-label">What We Do?</p>
+          <div class="container" >
+            <p class="section-subtitle" id="service-label" data-aos="fade-left" data-aos-duration="1000">What We Do?</p>
 
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" data-aos="fade-left" data-aos-duration="1000">
               The service we offer is specifically designed to meet your needs.
             </h2>
 
-            <ul class="grid-list">
+            <ul class="grid-list" >
               <li>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up"
+                data-aos-duration="1000">
                   <div class="card-icon">
                     <ion-icon
                       name="settings-outline"
@@ -323,7 +325,8 @@
               </li>
 
               <li>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up"
+                data-aos-duration="1000">
                   <div class="card-icon">
                     <ion-icon
                       name="school-outline"
@@ -353,7 +356,8 @@
               </li>
 
               <li>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up"
+                data-aos-duration="1000">
                   <div class="card-icon">
                     <ion-icon name="code-outline" aria-hidden="true"></ion-icon>
                   </div>
@@ -388,7 +392,8 @@
               </li>
 
               <li>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up"
+                data-aos-duration="1000">
                   <div class="card-icon">
                     <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
                   </div>
@@ -419,6 +424,7 @@
                   </a>
                 </div>
               </li>
+
             </ul>
           </div>
         </section>
@@ -437,10 +443,10 @@
                 loading="lazy"
                 alt="about banner"
                 class="w-100"
-              />
+                data-aos="fade-right" data-aos-duration="1000"/>
             </figure>
 
-            <div class="about-content">
+            <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
               <p class="section-subtitle" id="about-label">Why Choose Us?</p>
 
               <h2 class="h2 section-title">
@@ -546,10 +552,10 @@
                 loading="lazy"
                 alt="feature banner"
                 class="w-100"
-              />
+                data-aos="fade-left" data-aos-duration="1000"/>
             </figure>
 
-            <div class="feature-content">
+            <div class="feature-content" data-aos="fade-right" data-aos-duration="1000">
               <p class="section-subtitle" id="feautre-label">Our Solutions</p>
 
               <h2 class="h2 section-title">
@@ -629,7 +635,7 @@
             <ul
               class="stats-card has-bg-image"
               style="background-image: url('./assets/images/stats-bg.jpg')"
-            >
+              data-aos="fade-up" data-aos-duration="1000">
               <li>
                 <p class="card-text">
                   <span class="h1">7518</span>
@@ -675,16 +681,16 @@
           aria-labelledby="project-label"
         >
           <div class="container">
-            <p class="section-subtitle" id="project-label" >Courses</p>
+            <p class="section-subtitle" id="project-label" data-aos="fade-left" data-aos-duration="1000">Courses</p>
 
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" data-aos="fade-right" data-aos-duration="1000">
               Check out some of our awesome Training Programs With Industry Experts
             </h2>
 
             <ul class="grid-list">
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -736,7 +742,7 @@
               </li>
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -788,7 +794,7 @@
               </li>
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -841,7 +847,7 @@
 
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -893,7 +899,7 @@
               </li>
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -945,7 +951,7 @@
               </li>
 
               <li>
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 560; --height: 350"
@@ -1008,11 +1014,11 @@
 
         <section id="cta" class="cta" aria-label="call to action">
           <div class="container">
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" data-aos="fade-right" data-aos-duration="1000">
               Join our community by using our services and grow your business.
             </h2>
 
-            <a href="#" class="btn btn-primary">Try it For Free</a>
+            <a href="#" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">Try it For Free</a>
           </div>
         </section>
       </article>
@@ -1022,8 +1028,8 @@
     - #FOOTER
   -->
 
-    <footer id="footer" class="footer">
-      <div class="container grid-list">
+    <footer id="footer" class="footer" >
+      <div class="container grid-list" data-aos="fade-up" data-aos-duration="1000">
         <div class="footer-brand">
           <a href="#" class="logo">
             <img
@@ -1161,5 +1167,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
