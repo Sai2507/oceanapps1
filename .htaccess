@@ -1,0 +1,15 @@
+
+<Directory /var/www/html>
+    AllowOverride All
+</Directory>
+
+
+
+
+# Enable the rewrite engine
+RewriteEngine On
+
+# Redirect requests for files without .html extension to the corresponding .html file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
